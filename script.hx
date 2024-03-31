@@ -20,7 +20,7 @@ var WolfDefense = false;
 var WolfRevenge = false;
 function init () {
 	if (isHost()) {
-    // me(). gibt den aktuellen Client zurück, so wird für jeden Spieler ein Objective erstellt. Beim Klick auf den Objective-Button wird "action" ausgeführt
+    		// me(). gibt den aktuellen Client zurück, so wird für jeden Spieler ein Objective erstellt. Beim Klick auf den Objective-Button wird "action" ausgeführt
 		me().objectives.add("Easy", "Set Difficulty to [Stone] \nRecommended for new players", {visible: true}, {name: "[Stone] Difficulty", action: "easy"});
 		me().objectives.add("Normal", "Set Difficulty to [Iron] \nRecommended for average players", {visible: true}, {name: "[Iron] Difficulty", action: "normal"});
 		me().objectives.add("Hard", "Set Difficulty to [RimeSteel] \nRecommended for advanced players", {visible: true}, {name: "[RimeSteel] Difficulty", action: "hard"});
@@ -51,30 +51,28 @@ function onFirstLaunch() {
 		addRule(Rule.NoMaxTerritoryExpand);
 		state.difficulty = 1;
 		talk("The Enemy is attacking every three months, prepare your defenses and destroy the Wolf Clan!", {name:"Samurai", who:Banner.BannerStag}); // Der Spieler gewarnt, dass geskriptete Gegnerwellen kommen
-			getZone(163).allowScouting = false; // Dieses Land wird erst freigeschaltet, wenn der Objective-Button BuyLand geklickt wurde. 
-			getZone(157).allowScouting = false;
-			getZone(148).allowScouting = false;
-			getZone(179).allowScouting = false;
+		getZone(163).allowScouting = false; // Dieses Land wird erst freigeschaltet, wenn der Objective-Button BuyLand geklickt wurde. 
+		getZone(157).allowScouting = false;
+		getZone(148).allowScouting = false;
+		getZone(179).allowScouting = false;
 
-			getZone(162).allowScouting = false;
-			getZone(126).allowScouting = false;
-			getZone(136).allowScouting = false;
-			getZone(146).allowScouting = false;
-			getZone(158).allowScouting = false;
-
-			getZone(141).allowScouting = false;
-			getZone(127).allowScouting = false;
-			getZone(124).allowScouting = false;
-			getZone(145).allowScouting = false;
-			getZone(160).allowScouting = false;
-			getZone(108).allowScouting = false;
-			getZone(120).allowScouting = false;
-			Stag.addResource(Resource.Money, 200); 
-			Bear.addResource(Resource.Money, 200);
-			Wolf.addBonus({ id: ConquestBonus.BColonizeCost, isAdvanced: true }); // Bonus wird dem Wolf-Clan hinzugefügt
-			Wolf.addBonus({ id: ConquestBonus.BWatchTower, isAdvanced: true });
-
-
+		getZone(162).allowScouting = false;
+		getZone(126).allowScouting = false;
+		getZone(136).allowScouting = false;
+		getZone(146).allowScouting = false;
+		getZone(158).allowScouting = false;
+		
+		getZone(141).allowScouting = false;
+		getZone(127).allowScouting = false;
+		getZone(124).allowScouting = false;
+		getZone(145).allowScouting = false;
+		getZone(160).allowScouting = false;
+		getZone(108).allowScouting = false;
+		getZone(120).allowScouting = false;
+		Stag.addResource(Resource.Money, 200); 
+		Bear.addResource(Resource.Money, 200);
+		Wolf.addBonus({ id: ConquestBonus.BColonizeCost, isAdvanced: true }); // Bonus wird dem Wolf-Clan hinzugefügt
+		Wolf.addBonus({ id: ConquestBonus.BWatchTower, isAdvanced: true });
 	}
 }
 
