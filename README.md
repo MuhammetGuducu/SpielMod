@@ -4,10 +4,10 @@ Dieses Haxe-Skript erweitert das Spielgeschehen in Northgard durch eine Vielzahl
 
 ## Hauptmerkmale
 
-- **Anpassbare Gameplay**: Mehrere Schwierigkeitsgrade, der Spieler kann zwischen Einfach, Normal und Schwer wählen.
-- **Gegnerwellen**: Einführung regelmäßiger Gegnerangriffe, die im Schwierigkeitsgrad zunehmen und zufällig generiert werden. 
+- **Anpassbare Schwierigkeit**: Der Spieler kann zwischen Einfach, Normal und Schwer wählen.
+- **Zufällige Gegnerwellen**: Einführung regelmäßiger Gegnerangriffe, die im Schwierigkeitsgrad zunehmen und zufällig generiert werden. 
 - **Kauf und Upgrade von Einheiten**: Spieler können Krieger, Tanks und Bogenschützen rekrutieren und upgraden.
-- **Territoriumserweiterungen**: Möglichkeit, neues Land freizuschalten und zu erkunden.
+- **Territoriumserweiterungen**: Möglichkeit, neues Land freizuschalten um zu expandieren.
 - **KI-Verbesserungen**: Verbesserung der künstlichen Intelligenz damit die KI herausfordernder ist.
 - **Dynamische Ereignisse**: Jede 5. Welle erhalten Spieler zufällige Ereignisse und Belohnungen, die das Spielgeschehen beeinflussen.
 
