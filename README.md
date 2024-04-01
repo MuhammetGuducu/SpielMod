@@ -13,7 +13,7 @@ Dieses Haxe-Skript erweitert das Spielgeschehen in Northgard durch eine Vielzahl
 
 ## Technische Details
 
-- **Programmiersprache**: Haxe
+- **Programmiersprache**: Haxe mit der Northgard-API (https://northgard.net/doc/api/current/)
 - **Interaktion**: Spielerinteraktionen werden über ein Objectives-Button System gesteuert. Wenn der Nutzer auf ein Button klickt, wird eine Aktion durchgeführt. 
 - **Gegnereinheiten**: Verschiedene Typen von Gegnereinheiten (schwach, normal, stark) mit unterschiedlichen Fähigkeiten und Stärken.
 - **Upgrade-System**: Spieler können ihre Einheiten durch die Verwendung von Ressourcen verbessern, dadurch erhöht sich die Spieltiefe und Strategie.
